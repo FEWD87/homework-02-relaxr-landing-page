@@ -120,10 +120,13 @@ li {
 .container {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
-
-  width: 100%;
+  width: 960px;
+  margin: auto;
+  height: 500px;
+  
+  /*width: 100%;
   margin: 0;
-  height: 700px;
+  height: 700px;*/
 }
 
 header {
@@ -131,8 +134,8 @@ header {
 }
 
 .mid-section {
-  width: 100%;
-  margin: 0;
+  width: 960px;
+  margin: auto;
 }
 
 footer {
