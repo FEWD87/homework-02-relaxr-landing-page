@@ -52,6 +52,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;*/
+  background-color: #606161;
 }
 
 h1 {
@@ -110,6 +111,24 @@ li {
   list-style: disc;
 }
 
+div.bottom-picture {
+  padding-top: 30px;
+}
+
+div.sign-up h3 {
+  color: #fff;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: #033048;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 
 
 /******************************************
@@ -123,7 +142,7 @@ li {
   width: 960px;
   margin: auto;
   height: 500px;
-  
+
   /*width: 100%;
   margin: 0;
   height: 700px;*/
@@ -135,7 +154,27 @@ header {
 
 .mid-section {
   width: 960px;
+  height: 500px;
   margin: auto;
+  background-color: #fff;
+}
+
+.bottom-picture {
+  width: 960px;
+  height: 300px;
+  margin: auto;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  font-weight: italic 300; 
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.sign-up {
+  width: 960px;
+  height: 60px;
+  margin: auto;
+  background-color: #f9e42e;
 }
 
 footer {
