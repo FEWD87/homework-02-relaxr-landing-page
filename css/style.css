@@ -83,6 +83,11 @@ h3 {
   border-radius: 5px;
 }
 
+img {
+  padding: 15px;
+  width:;
+}
+
 div.mid-section > h1 {
   color: #033048;
   margin: 0;
@@ -111,8 +116,19 @@ li {
   list-style: disc;
 }
 
-div.bottom-picture {
+div.bottom-picture > p {
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 0px;
+  line-height: 22px;
+}
+
+div.bottom-picture > h2 {
+  font-weight: 600;
+  font-size: 18px;
   padding-top: 30px;
+  line-height: 2px;
 }
 
 div.sign-up h3 {
@@ -128,6 +144,20 @@ div.sign-up h3 {
   padding: 10px;
   border-radius: 5px;
 }
+
+div.footer > h1 {
+  font-weight: 800;
+  font-size: 24px;
+  padding: 37px 0 0 0;
+  color: #f9e42e;
+}
+
+div.footer > p {
+  font-weight: 600;
+  font-size: 9px;
+  margin-top: 120px;
+}
+
 
 
 
@@ -195,9 +225,10 @@ header {
 }
 
 .footer {
+  text-align: center;
   background-color: #121212;
   width: 960px;
-  height: 200px;
+  height: 300px;
   margin: auto;
 }
 
