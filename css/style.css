@@ -120,15 +120,14 @@ div.bottom-picture > p {
   font-weight: 300;
   font-size: 18px;
   font-style: italic;
-  padding-top: 0px;
+  padding: 80px 360px 0 360px;
   line-height: 22px;
 }
 
 div.bottom-picture > h2 {
   font-weight: 600;
   font-size: 18px;
-  padding-top: 30px;
-  line-height: 2px;
+  padding-top: 10px;
 }
 
 div.sign-up h3 {
