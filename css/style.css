@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Kevin Riehl
 Developer @GA in NYC
 */
 
@@ -49,9 +49,9 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: "Open Sans", Arial, sans-serif;
+
+
 }
 
 
@@ -67,11 +67,145 @@ body {
 }
 
 header {
+  padding: 30px 100px 0px 100px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  height: 500px;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
+}
+
+header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 70px;
+  color: white;
+}
+
+.getitnow {
+  margin: auto;
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #606161;
+  border-radius: 5px;
+  width: 171px;
+  height: 38px;
+  background-color: #f9e42e;
+  padding: 7px 5px 15px 37px;
+}
+
+.benefits {
+  clear: both;
+  background-color: #f0efef;
+  padding: 55px 100px 55px 100px;
+}
+
+.benefits h1 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #033048;
+  margin-bottom: 25px;
+}
+
+.benefits p {
+  font-weight: 300;
+  color: #606161;
+  font-size: 20px;
+  margin-bottom: 27px;
+  width: 490px;
 
 }
 
-footer {
+ul {
+  list-style: inherit;
+  color: #606161;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 80px;
+  width: 360px;
+}
 
+.testimonial {
+  clear: both;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  height: 260px;
+  width: 100%;
+}
+
+.testi {
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 45px 320px 1px 320px;
+}
+
+.amanda {
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 6px 320px 1px 320px;
+  font-weight: 600;
+}
+
+.yellowpart {
+  clear: both;
+  height: 75px;
+  background-color: #f9e42e;
+  padding: 19px;
+}
+
+.signupbutton {
+  margin: auto;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  width: 171px;
+  height: 38px;
+  background-color: #033048;
+  padding: 4px 9px 3px 29px;
+}
+
+footer {
+  clear: both;
+  background-color: #121212;
+  height: 260px;
+  text-align: center;
+  color: white;
+}
+
+footer h1 {
+  padding-top: 33px;
+  color: #f9e42e;
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+
+.twitter {
+  float: left;
+  padding-left: 440px;
+}
+
+.facebook {
+  float: right;
+  padding-right: 457px;
+}
+
+footer h4 {
+  clear: both;
+  padding-top: 68px;
+  font-size: 11px;
+  font-weight: 300;
 }
 
 /******************************************
