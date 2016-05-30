@@ -49,7 +49,7 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: OpenSans, Helvetica, Arial, sans-serif;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   text-align: center;
@@ -60,19 +60,23 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
 .container {
   width: 960px;
   margin: auto;
   height: 500px;
+  align-items: center;
 }
 
 header {
-
+  color: #f0efef;
 }
 
 footer {
   background-color: #121212;
+  color: #f0efef;
+  font-size: 9px;
+  font-weight: normal;
+  padding: 5px 20px 5px 20px;
 }
 
 /******************************************
@@ -80,11 +84,24 @@ footer {
 /*******************************************/
 .buttonone {
   background-color: #f9e42e;
-  border: 0px solid black;
+  border: 0px black solid;
+  border-radius: 5px;
+  color: #606161;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 35px 5px 35px; 
+  border: 5px;
 }
 
 .benefits {
   background-color: #f0efef;
+  text-align: left;
+  padding: 40px 0px 50px 50px;
+  color: #606161;
+}
+
+.testimonial {
+  color: #f0efef
 }
 
 .buttonline {
@@ -94,4 +111,72 @@ footer {
 .buttontwo {
   background-color: #033048;
   border: 0px solid black;
+  border-radius: 5px;  
+  color: #f0efef;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 35px 5px 35px; 
+  border: 5px;
+  margin: 15px 0px 15px 0px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 24px; 
+  margin: 15px;
+}
+
+header h1 {
+  text-align: left;
+  margin: 15px 0px 20px 20px;
+}
+
+footer h1 {
+  color: #f9e42e;
+}
+
+header h2 {
+  font-weight: normal;
+  font-size: 24px;  
+}
+
+.benefits h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;    
+}
+
+.benefits p {
+  margin: 10px;  
+}
+
+.benefits p, li {
+  font-weight: lighter;
+  font-size: 13px;
+  width: 350px;   
+}
+
+.benefits li {
+  padding-left: 40px;  
+}
+
+.testimonial p {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 18px;
+  padding-top: 40px;
+}
+
+.testimonial h3 {
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+footer img {
+  margin: 20px 10px 40px 10px;
+}
+
+footer p {
+  margin-bottom: 20px;  
 }
