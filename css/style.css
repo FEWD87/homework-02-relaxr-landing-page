@@ -69,6 +69,7 @@ body {
 
 header {
   color: #f0efef;
+  height: 350px;
 }
 
 footer {
@@ -87,10 +88,11 @@ footer {
   border: 0px black solid;
   border-radius: 5px;
   color: #606161;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 14px;
-  padding: 5px 35px 5px 35px; 
+  padding: 10px 35px 10px 35px; 
   border: 5px;
+  letter-spacing: 1px;
 }
 
 .benefits {
@@ -101,7 +103,9 @@ footer {
 }
 
 .testimonial {
-  color: #f0efef
+  color: #f0efef;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 .buttonline {
@@ -113,17 +117,19 @@ footer {
   border: 0px solid black;
   border-radius: 5px;  
   color: #f0efef;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 12px;
-  padding: 5px 35px 5px 35px; 
+  padding: 10px 35px 10px 35px; 
   border: 5px;
-  margin: 15px 0px 15px 0px;
+  margin: 20px 0px 20px 0px;
+  letter-spacing: 1px;
 }
 
 h1 {
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 24px; 
   margin: 15px;
+  letter-spacing: 1px;
 }
 
 header h1 {
@@ -136,14 +142,16 @@ footer h1 {
 }
 
 header h2 {
-  font-weight: normal;
-  font-size: 24px;  
+  font-weight: 500;
+  font-size: 24px;
+  margin: 60px 0px 40px 0px;
+  letter-spacing: 2px;  
 }
 
 .benefits h2 {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 20px;
-  margin: 10px;    
+  margin: 10px;  
 }
 
 .benefits p {
@@ -151,26 +159,27 @@ header h2 {
 }
 
 .benefits p, li {
-  font-weight: lighter;
+  font-weight: 200;
   font-size: 13px;
-  width: 350px;   
+  width: 50%;   
 }
 
 .benefits li {
-  padding-left: 40px;  
+  padding-left: 40px;
+  margin-top: 5px;
 }
 
 .testimonial p {
-  font-weight: lighter;
+  font-weight: 100;
   font-style: italic;
   font-size: 18px;
   padding-top: 40px;
 }
 
 .testimonial h3 {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 18px;
-  padding-bottom: 40px;
+  padding: 5px 0px 40px 0px;
 }
 
 footer img {
@@ -178,5 +187,6 @@ footer img {
 }
 
 footer p {
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
+  font-weight: 500;
 }
