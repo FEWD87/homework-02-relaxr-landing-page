@@ -1,7 +1,7 @@
 body {
   width: 650px;
   font-family: 'Open Sans', sans-serif;
-  align-content: center;
+  margin: 0 auto;
 }
 
 header {
