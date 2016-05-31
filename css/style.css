@@ -18,7 +18,7 @@ Developer @GA in NYC
 }
 
 /* Clear fix hack */
-.clearfix:after {
+.clearfix: after {
      content: ".";
      display: block;
      clear: both;
@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     /*font-family: Helvetica, Arial, sans-serif;*/
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
@@ -64,20 +64,42 @@ body {
   width: 960px;
   margin: auto;
   height: 500px;
-}
-
-header {
-
-}
-
-footer {
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+  color: white;
+  position: relative;
+  left: 65px;
+  top: 25px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+h2 {
+  color: white;
+  position: relative;
+  left: 168px;
+  top: 80px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.button {
+  position: relative;
+  left: 283px;
+  top: 120px;
+  font-weight: 800;
+  font-size: 14px;
+  border: solid 1px #f9e42e;
+  padding: 5px;
+  width: 113px;
+  background-color: #f9e42e;
+}
 
 
 
