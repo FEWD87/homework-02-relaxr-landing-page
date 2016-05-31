@@ -68,7 +68,7 @@ body {
 }
 
 .relaxr {
-  font-weight: extra bold;
+  font-weight: bold;
   font-size: 35px;
   color: white;
 }
@@ -79,16 +79,16 @@ body {
 }
 
 .tap {
-  font-size: 30px;
-  font-weight: semibold;
+  font-size: 35px;
+  font-weight: 600;
   text-align: center;
   color: white;
   margin-top: 100px;
 }
 
 .get {
-  font-weight: extra bold;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 20px;
   border: 5px;
   background-color: #f9e42e;
   padding: 10px 45px 10px 45px;
@@ -103,8 +103,8 @@ body {
 }
 
 .benefits {
-  font-weight: semibold;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 28px;
   color: #033048;
 }
 
@@ -132,7 +132,7 @@ body {
 }
 
 .amanda {
-  font-weight: semibold;
+  font-weight: 600;
   font-size: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -145,18 +145,18 @@ div.signup {
 }
 
 #signup_button {
-  font-weight: extra bold;
+  font-weight: 700;
   font-size: 18px;
   border: 5px;
   border-radius: 4px;
   background-color: #033048;
   color: white;
   margin-top: 30px;
-  padding: 10px 60px 10px 60px;
+  padding: 10px 60px;
 }
 
 #footer {
-  font-weight: semibold;
+  font-weight: 600;
   font-size: 9px;
   height: 250px;
   background-color: #121212;
@@ -176,7 +176,7 @@ div.signup {
 footer {
   color: white;
   font-size: 15px;
-  font-weight: semibold;
+  font-weight: 600;
   margin-top: 40px;
 }
 
