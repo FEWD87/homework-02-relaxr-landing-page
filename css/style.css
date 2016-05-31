@@ -1,7 +1,6 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr homepage
+Client: George Kokkinidis
 Developer @GA in NYC
 */
 
@@ -46,12 +45,11 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+
 }
 
 
@@ -67,11 +65,184 @@ body {
 }
 
 header {
+width: 650px;
+height: 320px;
+margin: auto;
+padding-top: 10px;
+padding-left: 50px;
+padding-right: 50px;
+background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+background-size: cover;
+float:left;
+}
 
+.logotop {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.tagline {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.yellow {
+  height: 30px;
+  width: 140px;
+  padding-top: 5px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: 800;
+  color: #121212;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f9e42e;
+}
+
+main {
+  clear: both;
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 650px;
+  background-color: #f0efef;
+}
+
+.benefits {
+  font-weight: 600;
+  font-size: 20px;
+  color: #121212;
+  margin-top: 45px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #121212;
+  margin-top: 10px;
+  width: 320px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 20px;
+  list-style-type: circle;
+  font-weight: 300;
+  font-size: 13px;
+  color: #121212;
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.testimonial {
+  margin-top: 20px;
+  height: 180px;
+  width: 650px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgba(134,141,157, .5);
+  background-size: cover;
+  clear: both;
+  padding-top: 30px;
+}
+
+.quote {
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 180px;
+  padding-right: 180px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.credit {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+}
+
+.cta {
+  background-color: #f9e42e;
+  height: 55px;
+  width: 650px;
+  padding-top: 10px;
+}
+
+.endbutton {
+  height: 30px;
+  width: 140px;
+  padding-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #121212;
 }
 
 footer {
+  height: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  clear: both;
+  background-color: #121212;
+  width: 650px;
+  margin-top: 0px;
+  padding-top: 20px;
+}
 
+.logobottom {
+  margin-top: 0px;
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social {
+  padding-left: 250px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.fb {
+  height: 15px;
+  clear: both;
+  float: left;
+  margin-right: 20px;
+}
+
+.tw {
+  height: 15px;
+  float: left;
+}
+
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
 }
 
 /******************************************
