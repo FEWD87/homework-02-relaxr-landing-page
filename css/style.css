@@ -50,8 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background: #CCC;
 }
 
 
@@ -63,11 +62,13 @@ body {
 .container {
   width: 960px;
   margin: auto;
-  height: 500px;
+  height: auto;
 }
 
 header {
-
+  background: url(../images/header_bg.jpg);
+  width: auto;
+  height: 700px;
 }
 
 footer {
@@ -78,6 +79,132 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-
-
+h1.main{
+  font-weight: bolder;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 1px;
+  padding: 30px 0px 60px 50px;
+  clear: both;
+}
+h2.headline{
+  font-size: 24px;
+  color: white;
+  letter-spacing: 1px;
+  padding: 30px 50px 90px 50px;
+  text-align: center;
+  margin: 0px auto;
+}
+button.top{
+  background-color: #f9e42e;
+  height: 55px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  clear: both;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  letter-spacing: 1px;
+  width: 220px;
+  border: none;
+  position: relative;
+  display: block;
+  margin: 0px auto;
+}
+div.benefits{
+  background: #f0efef;
+  border: none;
+  padding: 60px 500px 60px 60px;
+}
+span.ben{
+  font-size: 20px;
+  font-weight: bold;
+}
+p.perfect{
+  font-size: 13px;
+  padding: 20px 0px 30px 20px;
+  font-weight: lighter;
+  color: #606161;
+  letter-spacing: 0.2px;
+}
+ul{
+  font-size: 13px;
+  padding: 20px 0px 30px 100px;
+  font-weight: lighter;
+  color: #606161;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+div.quote{
+  padding: 100px 300px 80px 300px;
+  background: url("../images/testimonial_bg.jpg");
+  height: 394px;
+  width: auto;
+  text-align: center;
+}
+p.Amanda{
+  font-size: 18px;
+  color: #CCC;
+  font-weight: 100;
+  font-style: italic
+}
+span.Intuit{
+  color: #FFF;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+div.button{
+  background-color: #f9e42e;
+  width: auto;
+  height: 150px;
+  margin: 0px auto;
+  padding: 35px 60px 60px 60px;
+}
+.signup{
+  margin: 0px auto;
+  background-color: #033048;
+  color: white;
+  height: 80px;
+  width: 300px;
+  font-size: 12px;
+  font-weight: bold;
+  clear: both;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  letter-spacing: 1px;
+  border: none;
+  position: relative;
+  display: block;
+}
+footer{
+  background: #121212;
+  height: 350px;
+  width: auto;
+}
+h3{
+  text-align: center;
+  padding: 70px 50px 90px 50px;
+  clear: both;
+  color: #f9e42e;
+  font-weight: bolder;
+  font-size: 24px;
+  letter-spacing: .8px;
+}
+p.copyright{
+  color: #CCC;
+  font-size: 9px;
+  text-align: center;
+}
+div.social{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 34px; 
+  text-align: center;
+  padding: 0px 0px 100px 420px;
+}
+img{
+  padding-right: 50px;
+}
 
