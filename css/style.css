@@ -101,8 +101,8 @@ h2#tagline{
   width: 200px;
   background-color: #f9e42e;
   text-align: center;
-  padding-top: 10px;
-  margin:auto;
+  padding-top: 5px;
+  margin-left: 550px;
 }
 
 .container2{
@@ -164,8 +164,8 @@ p#name{
   width: 200px;
   background-color: #033048;
   text-align: center;
-  padding-top: 10px;
-  margin:auto;
+  padding-top: 5px;
+  margin-left: 575px;
 
 }
 
