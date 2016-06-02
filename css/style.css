@@ -106,6 +106,7 @@ header h2 {
   z-index: 2;
   background-color: white;
   background-size: cover;
+  font-family: 'Lato', sans-serif;
 }
 
 .benefits {
@@ -205,7 +206,7 @@ img {
   padding: 25px;
 }
 
-footer {
+#copyright {
   color: white;
   padding-bottom: 25px;
   font-size: 11px;
