@@ -45,6 +45,8 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+  margin: auto;
+  width: 650px;
   color: #000;
   font-size: 12px;
   line-height: 1.4;
@@ -58,8 +60,8 @@ body {
 /*******************************************/
 
 /* Center the container */
-.container {
-  width: 960px;
+#container {
+  width: 650px;
   margin: auto;
   height: 500px;
 }
