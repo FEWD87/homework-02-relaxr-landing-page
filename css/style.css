@@ -133,20 +133,15 @@ ul {
 	text-align: center;
 }
 
-.container5 {
+footer {
 	height: 100px;
 	background-color: black;
-	padding-left: 45%;
+/*	padding-left: 45%;*/
+	color: white;
+	font-weight: 600;
+	text-align: center;
 }
 
 .logos {
 	margin: 10px;
-}
-
-footer {
-	height: 50px;
-	text-align: center;
-	background-color: black;
-	color: white;
-	font-weight: 600;
 }
