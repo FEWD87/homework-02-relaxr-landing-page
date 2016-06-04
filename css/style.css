@@ -46,13 +46,118 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;*/
+  background-color: #606161;
 }
+
+h1 {
+  color: #fff;
+  margin: 0;
+  padding: 60px 0 80px 100px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h3 {
+  color: #033048;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: #f9e42e;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+img {
+  padding: 15px;
+  width:;
+}
+
+div.mid-section > h1 {
+  color: #033048;
+  margin: 0;
+  padding: 90px 0 0px 100px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+div.mid-section > p {
+  color: #033048;
+  margin: 0;
+  padding: 10px 0 0px 100px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+div.mid-section > ul {
+  color: #033048;
+  margin: 0;
+  padding: 20px 0 20px 150px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+li {
+  list-style: disc;
+}
+
+div.bottom-picture > p {
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  padding: 80px 360px 0 360px;
+  line-height: 22px;
+}
+
+div.bottom-picture > h2 {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+div.sign-up h3 {
+  color: #fff;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: #033048;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer > h1 {
+  font-weight: 800;
+  font-size: 24px;
+  padding: 37px 0 0 0;
+  color: #f9e42e;
+}
+
+footer > p {
+  font-weight: 600;
+  font-size: 9px;
+  margin-top: 120px;
+}
+
+
 
 
 /******************************************
@@ -60,19 +165,84 @@ body {
 /*******************************************/
 
 /* Center the container */
-.container {
+
+/*.container {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  width: 960px;
+  margin: auto;
+  height: 500px;
+
+  /*width: 100%;
+  margin: 0;
+  height: 700px;
+}*/
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
   width: 960px;
   margin: auto;
   height: 500px;
 }
 
-header {
-
-}
-
 footer {
-
+  text-align: center;
+  background-color: #121212;
+  width: 960px;
+  height: 300px;
+  margin: auto;
 }
+
+.mid-section {
+  width: 960px;
+  height: 500px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.bottom-picture {
+  width: 960px;
+  height: 300px;
+  margin: auto;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  font-weight: italic 300; 
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.sign-up {
+  width: 960px;
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f9e42e;
+  overflow: auto;
+}
+
+#sign-up-button {
+  color: #fff;
+  width: 160px;
+  height: 40px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: #033048;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*.footer {
+  text-align: center;
+  background-color: #121212;
+  width: 960px;
+  height: 300px;
+  margin: auto;
+}*/
 
 /******************************************
 /* ADDITIONAL STYLES
