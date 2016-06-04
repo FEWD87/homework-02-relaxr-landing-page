@@ -144,14 +144,14 @@ div.sign-up h3 {
   border-radius: 5px;
 }
 
-div.footer > h1 {
+footer > h1 {
   font-weight: 800;
   font-size: 24px;
   padding: 37px 0 0 0;
   color: #f9e42e;
 }
 
-div.footer > p {
+footer > p {
   font-weight: 600;
   font-size: 9px;
   margin-top: 120px;
@@ -165,7 +165,8 @@ div.footer > p {
 /*******************************************/
 
 /* Center the container */
-.container {
+
+/*.container {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   width: 960px;
@@ -174,11 +175,15 @@ div.footer > p {
 
   /*width: 100%;
   margin: 0;
-  height: 700px;*/
-}
+  height: 700px;
+}*/
 
 header {
-
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  width: 960px;
+  margin: auto;
+  height: 500px;
 }
 
 footer {
