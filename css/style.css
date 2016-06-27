@@ -46,12 +46,10 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+     color: white;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -67,17 +65,150 @@ body {
 }
 
 header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 500px;
+}
 
+.benefits {
+  background-color: #f0efef;
+  height: 400px;
+  padding: 50px;
+  font-weight: 300;
+  font-size: 13pt;
+  color: #606161;
+}
+
+.testimonial {
+  font-style: italic;
+  font-weight: 300px;
+  font-size: 18pt;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 300px;
+  margin: auto;
+  padding: 70px;
+}
+
+.testimonialtext {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.signup {
+  background-color: #f9e42e;
+  height: 90px;
+  padding: 20px;
+}
+
+ul {
+  padding: 40px;
+  width: 500px;
+  /*For some reason, the bullets weren't showing up, troubleshooting led me to this "list-style" solution but I know there's probably a different way.*/
+  list-style: disc;
 }
 
 footer {
-
+  height: 400px;
+  background-color: #121212;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 9pt;
+  font-weight: 300;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.logo {
+      color: white;
+      font-weight: 800;
+      font-size: 24pt;
+      padding-left: 30px;
+      padding-top: 30px;
+}
 
+footer .logo {
+      color: #f9e42e;
+      margin-bottom: 20px;
+      padding-left: 0px;
 
+}
+
+.intro {
+      color: white;
+      font-weight: 600;
+      font-size: 24pt;
+      text-align: center;
+      padding-top: 100px;
+}
+
+#button {
+      margin: auto;
+      background-color: #f9e42e;
+      width: 180px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      color: #033048;
+      border-radius: 5px;
+      font-weight: 800;
+      font-size: 14pt;
+      margin-top: 50px;
+      margin-bottom: 200px;
+      text-align: center;
+}
+
+#button2 {
+      margin: auto;
+      background-color: #033048;
+      width: 180px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      color: white;
+      border-radius: 5px;
+      font-weight: 800;
+      font-size: 14pt;
+      text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 20pt;
+  color: #033048;
+  padding-bottom: 15px;
+}
+
+.testimonialtext h2 {
+  font-weight: 600;
+  font-size: 18pt;
+  color: white;
+  font-style: normal;
+  padding-top: 30px;
+}
+
+.icons {
+  width: 100px;
+  margin: auto;
+}
+
+.social1 {
+  float: left;
+  width: 50px;
+  padding: 10px;
+}
+
+.social2 {
+  float: right;
+  width: 30px;
+  padding: 10px;
+}
+
+.copyright {
+  width: auto;
+  text-align: center;
+  padding-top: 40px;
+}
 
